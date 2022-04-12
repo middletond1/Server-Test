@@ -11,7 +11,6 @@ function App() {
       .then((data) => setData(data.message));
   }, []);
 
-  console.log(data)
 
   return (
     <div className="App">
